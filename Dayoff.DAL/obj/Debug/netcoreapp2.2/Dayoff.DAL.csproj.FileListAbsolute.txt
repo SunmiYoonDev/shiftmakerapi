@@ -1,0 +1,9 @@
+C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\Dayoff.DAL\bin\Debug\netcoreapp2.2\Dayoff.DAL.deps.json
+C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\Dayoff.DAL\bin\Debug\netcoreapp2.2\Dayoff.DAL.dll
+C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\Dayoff.DAL\bin\Debug\netcoreapp2.2\Dayoff.DAL.pdb
+C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\Dayoff.DAL\obj\Debug\netcoreapp2.2\Dayoff.DAL.csprojAssemblyReference.cache
+C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\Dayoff.DAL\obj\Debug\netcoreapp2.2\Dayoff.DAL.AssemblyInfoInputs.cache
+C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\Dayoff.DAL\obj\Debug\netcoreapp2.2\Dayoff.DAL.AssemblyInfo.cs
+C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\Dayoff.DAL\obj\Debug\netcoreapp2.2\Dayoff.DAL.dll
+C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\Dayoff.DAL\obj\Debug\netcoreapp2.2\Dayoff.DAL.pdb
+C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\Dayoff.DAL\obj\Debug\netcoreapp2.2\Dayoff.DAL.csproj.CoreCompileInputs.cache

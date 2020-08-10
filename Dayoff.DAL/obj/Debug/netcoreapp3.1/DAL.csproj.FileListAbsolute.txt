@@ -1,0 +1,5 @@
+C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\DAL\obj\Debug\netcoreapp3.1\DAL.csprojAssemblyReference.cache
+C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
