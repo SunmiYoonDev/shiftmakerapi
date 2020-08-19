@@ -20,6 +20,8 @@ using System.Net;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Http;
 using Dayoff.BLL.Repositories;
+using Dayoff.BLL.Repositories.Helpers;
+using Dayoff.DAL.Models;
 
 namespace Dayoff.WebAPI
 {
@@ -47,7 +49,10 @@ namespace Dayoff.WebAPI
 
             services.Configure<MySqlConfiguration>(Configuration.GetSection("ConnectionStrings"));
             services.AddTransient<IDBConnectionFactory, DBConnectionFactory>();
+            services.Configure<EmailSettings>(Configuration.GetSection("EmailSettings"));
+            services.AddTransient<ISendingEmail, SendingEmail>();
             services.AddScoped<IAuthRepository, AuthRepository>();
+            services.AddScoped<ICompanyRepository, CompanyRepository>();
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                  .AddJwtBearer(options => {
                      options.TokenValidationParameters = new TokenValidationParameters
@@ -64,12 +69,15 @@ namespace Dayoff.WebAPI
             {
                 c.SwaggerDoc("v1", new Info { Title = "DAYOFF API", Version = "1.0" });
                 c.AddSecurityDefinition("Bearer",
-                       new ApiKeyScheme
-                       {
-                           In = "header",
-                           Name = "Authorization",
-                           Type = "apiKey"
-                       });
+                new ApiKeyScheme
+                {
+                    In = "header",
+                    Description = "Please enter into field the word 'Bearer' following by space and JWT" +
+                                    " Enter 'Bearer' [space] and then your token in the text input below." +
+                                    " Example: Bearer 12345abcdef",
+                    Name = "Authorization",
+                    Type = "apiKey"
+                });
                 c.AddSecurityRequirement(new Dictionary<string, IEnumerable<string>> {
                     { "Bearer", Enumerable.Empty<string>() },
                     });

@@ -1,4 +1,5 @@
-﻿using Dayoff.BLL.Services;
+﻿using Dayoff.BLL.Repositories.Helpers;
+using Dayoff.BLL.Services;
 using Dayoff.DAL;
 using Dayoff.DAL.Models;
 using Dayoff.DAL.Models.Dto;
@@ -11,17 +12,19 @@ namespace Dayoff.BLL.Repositories
 {
     public class AuthRepository : BaseRepository, IAuthRepository
     {
-        public AuthRepository(IDBConnectionFactory connectionFactory) : base(connectionFactory)
+        private readonly ISendingEmail _emailFactory;
+        public AuthRepository(IDBConnectionFactory connectionFactory, ISendingEmail emailFactory) : base(connectionFactory)
         {
+            _emailFactory = emailFactory;
         }
 
         public User FindUserByEmail(string email)
         {
             var SqlQuery = @"SELECT *
                              FROM users
-                             WHERE email='" + email + "'";
+                             WHERE email= @email";
 
-            var user = QueryFirstOrDefault<User>(SqlQuery);
+            var user = QueryFirstOrDefault<User>(SqlQuery, new { email });
 
             return user;
 
@@ -123,6 +126,31 @@ namespace Dayoff.BLL.Repositories
                 companyId,
                 Today
             });
+        }
+
+        public string ForgotPassword(string email)
+        {
+            var forgotUser = FindUserByEmail(email);
+
+            forgotUser.validKey = Guid.NewGuid().ToString();
+
+            var Today = String.Format("{0:s}", DateTime.Now);
+
+            var SqlQuery = @"UPDATE users
+                             SET valid_key = @validKey," +
+                            " date_changed = @Today" +
+                            " WHERE email = @email";
+            Execute(SqlQuery, new { forgotUser.validKey, Today, email });
+
+            _emailFactory.SendEmail(forgotUser.id, forgotUser.validKey, email, "forgotpassword");
+
+
+            //SqlQuery = @"INSERT INTO email (mail_to, new_message, date_added, date_sent, type_id)
+            //            VALUES (@email, 'ForgotPassword', @Today, @Today,3)";
+
+            //var result = Execute(SqlQuery, new {  Today, email });
+
+            return email;
         }
     }
 }

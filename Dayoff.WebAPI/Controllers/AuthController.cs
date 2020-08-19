@@ -118,5 +118,26 @@ namespace Dayoff.WebAPI.Controllers
             return Ok(new { data });
 
         }
+
+        [HttpPost("forgotpassword")]
+        public IActionResult ForgotPassword(UserForForgotPasswordResource userForForgotPasswordDto)
+        {
+            var user = _repo.FindUserByEmail(userForForgotPasswordDto.email);
+
+            if (user == null)
+                return Ok(new { error = "100" });
+            else if (!user.isActive)
+                return Ok(new { error = "102" });
+            else if (user.isDeleted)
+                return Ok(new { error = "105" });
+
+
+            _repo.ForgotPassword(userForForgotPasswordDto.email);
+
+            var data = "success";
+
+            return Ok(new { data });
+        }
+
     }
 }

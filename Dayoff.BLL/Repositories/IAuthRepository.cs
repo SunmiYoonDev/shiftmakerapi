@@ -11,5 +11,6 @@ namespace Dayoff.BLL.Repositories
         bool IsActiveUser(string email);
         User Login(string email, string password);
         void Register(User user, Company company, string password);
+        string ForgotPassword(string email);
     }
 }

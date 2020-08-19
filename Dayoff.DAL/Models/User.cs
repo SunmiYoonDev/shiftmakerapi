@@ -20,6 +20,7 @@ namespace Dayoff.DAL.Models
         public DateTime lastLogin { get; set; }
         public int titleId { get; set; }
         public int positionId { get; set; }
+        public string validKey { get; set; }
         public bool isDeleted { get; set; }
 
     }

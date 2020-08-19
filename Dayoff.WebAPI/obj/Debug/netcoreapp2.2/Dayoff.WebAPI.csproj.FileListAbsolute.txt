@@ -36,5 +36,5 @@ C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\Dayoff.WebAPI\bi
 C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\Dayoff.WebAPI\bin\Debug\netcoreapp2.2\Dayoff.DAL.dll
 C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\Dayoff.WebAPI\bin\Debug\netcoreapp2.2\Dayoff.BLL.pdb
 C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\Dayoff.WebAPI\bin\Debug\netcoreapp2.2\Dayoff.DAL.pdb
-C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\Dayoff.WebAPI\obj\Debug\netcoreapp2.2\Dayoff.WebAPI.csproj.CoreCompileInputs.cache
 C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\Dayoff.WebAPI\obj\Debug\netcoreapp2.2\Dayoff.WebAPI.csproj.CopyComplete
+C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\Dayoff.WebAPI\obj\Debug\netcoreapp2.2\Dayoff.WebAPI.csproj.CoreCompileInputs.cache
