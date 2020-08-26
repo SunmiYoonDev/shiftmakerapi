@@ -53,6 +53,7 @@ namespace Dayoff.WebAPI
             services.AddTransient<ISendingEmail, SendingEmail>();
             services.AddScoped<IAuthRepository, AuthRepository>();
             services.AddScoped<ICompanyRepository, CompanyRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                  .AddJwtBearer(options => {
                      options.TokenValidationParameters = new TokenValidationParameters

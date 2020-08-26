@@ -58,7 +58,7 @@ namespace Dayoff.WebAPI.Controllers
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(claims),
-                Expires = DateTime.Now.AddDays(180),
+                //Expires = DateTime.Now.AddDays(180),
                 SigningCredentials = creds
             };
 
