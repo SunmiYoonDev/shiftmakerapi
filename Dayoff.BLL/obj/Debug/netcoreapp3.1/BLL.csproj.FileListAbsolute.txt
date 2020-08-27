@@ -1,0 +1,5 @@
+C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\BLL\bin\Debug\netcoreapp3.1\BLL.deps.json
+C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\BLL\bin\Debug\netcoreapp3.1\BLL.dll
+C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\BLL\obj\Debug\netcoreapp3.1\BLL.csprojAssemblyReference.cache
+C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfoInputs.cache
+C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfo.cs

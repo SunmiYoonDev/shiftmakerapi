@@ -1,0 +1,12 @@
+C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\Dayoff.BLL\obj\Release\netcoreapp2.2\Dayoff.BLL.csprojAssemblyReference.cache
+C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\Dayoff.BLL\obj\Release\netcoreapp2.2\Dayoff.BLL.AssemblyInfoInputs.cache
+C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\Dayoff.BLL\obj\Release\netcoreapp2.2\Dayoff.BLL.AssemblyInfo.cs
+C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\Dayoff.BLL\obj\Release\netcoreapp2.2\Dayoff.BLL.csproj.CoreCompileInputs.cache
+C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\Dayoff.BLL\bin\Release\netcoreapp2.2\Dayoff.BLL.deps.json
+C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\Dayoff.BLL\bin\Release\netcoreapp2.2\Dayoff.BLL.dll
+C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\Dayoff.BLL\bin\Release\netcoreapp2.2\Dayoff.BLL.pdb
+C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\Dayoff.BLL\bin\Release\netcoreapp2.2\Dayoff.DAL.dll
+C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\Dayoff.BLL\bin\Release\netcoreapp2.2\Dayoff.DAL.pdb
+C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\Dayoff.BLL\obj\Release\netcoreapp2.2\Dayoff.BLL.csproj.CopyComplete
+C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\Dayoff.BLL\obj\Release\netcoreapp2.2\Dayoff.BLL.dll
+C:\Users\sunmi\Desktop\Sunmi\Dayoff_Project\Backend\Dayoff_back\Dayoff.BLL\obj\Release\netcoreapp2.2\Dayoff.BLL.pdb
