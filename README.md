@@ -7,5 +7,22 @@ This shift maker app is for small business struggling with making working schedu
 ## User interaction and design
 This is [version 1.3 of prototype](https://xd.adobe.com/view/630c5cec-0eee-46fc-beb8-0c575496b8bb-365f/) by adobe XD.
 
-## How to use it
-Run the database in mysql workbench.
+## Set up
+Run **Shiftmaker_v.1.2.sql** in mysql workbench.
+If there is error with **'utf8mb4_0900_ai_ci'**, change **'utf8mb4_0900_ai_ci'** to **'utf8mb4'.**
+
+Change the DbConnectionString in appsettings.json:
+```
+Server=localhost;Database=dayoff;UserId=**yourid**;Password=**yourpassword**;respectbinaryflags=false;
+```
+
+## How to test
+Using the swagger page to test it:
+https://localhost:5001/swagger/index.html
+
+How to use API without Auth API in Swagger
+1. Login the website.
+2. Get a user id and token.
+3. Click the authorize.
+4. Type ‘Bearer’ [space] and then your token in the value and authorize it. Example: Bearer 12345abcdef
+5. If you need userId to use the API, get it from No.2.
