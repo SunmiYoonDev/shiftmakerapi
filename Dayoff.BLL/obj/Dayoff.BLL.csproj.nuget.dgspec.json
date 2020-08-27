@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sunmi\\Desktop\\Sunmi\\Dayoff_Project\\Backend\\Dayoff_back\\Dayoff.BLL\\Dayoff.BLL.csproj": {}
+    "C:\\Users\\sunmi\\Desktop\\Sunmi\\Dayoff_Project\\Backend\\Shiftmaker\\Dayoff.BLL\\Dayoff.BLL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sunmi\\Desktop\\Sunmi\\Dayoff_Project\\Backend\\Dayoff_back\\Dayoff.BLL\\Dayoff.BLL.csproj": {
+    "C:\\Users\\sunmi\\Desktop\\Sunmi\\Dayoff_Project\\Backend\\Shiftmaker\\Dayoff.BLL\\Dayoff.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sunmi\\Desktop\\Sunmi\\Dayoff_Project\\Backend\\Dayoff_back\\Dayoff.BLL\\Dayoff.BLL.csproj",
+        "projectUniqueName": "C:\\Users\\sunmi\\Desktop\\Sunmi\\Dayoff_Project\\Backend\\Shiftmaker\\Dayoff.BLL\\Dayoff.BLL.csproj",
         "projectName": "Dayoff.BLL",
-        "projectPath": "C:\\Users\\sunmi\\Desktop\\Sunmi\\Dayoff_Project\\Backend\\Dayoff_back\\Dayoff.BLL\\Dayoff.BLL.csproj",
+        "projectPath": "C:\\Users\\sunmi\\Desktop\\Sunmi\\Dayoff_Project\\Backend\\Shiftmaker\\Dayoff.BLL\\Dayoff.BLL.csproj",
         "packagesPath": "C:\\Users\\sunmi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sunmi\\Desktop\\Sunmi\\Dayoff_Project\\Backend\\Dayoff_back\\Dayoff.BLL\\obj\\",
+        "outputPath": "C:\\Users\\sunmi\\Desktop\\Sunmi\\Dayoff_Project\\Backend\\Shiftmaker\\Dayoff.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -32,8 +32,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\sunmi\\Desktop\\Sunmi\\Dayoff_Project\\Backend\\Dayoff_back\\Dayoff.DAL\\Dayoff.DAL.csproj": {
-                "projectPath": "C:\\Users\\sunmi\\Desktop\\Sunmi\\Dayoff_Project\\Backend\\Dayoff_back\\Dayoff.DAL\\Dayoff.DAL.csproj"
+              "C:\\Users\\sunmi\\Desktop\\Sunmi\\Dayoff_Project\\Backend\\Shiftmaker\\Dayoff.DAL\\Dayoff.DAL.csproj": {
+                "projectPath": "C:\\Users\\sunmi\\Desktop\\Sunmi\\Dayoff_Project\\Backend\\Shiftmaker\\Dayoff.DAL\\Dayoff.DAL.csproj"
               }
             }
           }
@@ -102,14 +102,14 @@
         }
       }
     },
-    "C:\\Users\\sunmi\\Desktop\\Sunmi\\Dayoff_Project\\Backend\\Dayoff_back\\Dayoff.DAL\\Dayoff.DAL.csproj": {
+    "C:\\Users\\sunmi\\Desktop\\Sunmi\\Dayoff_Project\\Backend\\Shiftmaker\\Dayoff.DAL\\Dayoff.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sunmi\\Desktop\\Sunmi\\Dayoff_Project\\Backend\\Dayoff_back\\Dayoff.DAL\\Dayoff.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\sunmi\\Desktop\\Sunmi\\Dayoff_Project\\Backend\\Shiftmaker\\Dayoff.DAL\\Dayoff.DAL.csproj",
         "projectName": "Dayoff.DAL",
-        "projectPath": "C:\\Users\\sunmi\\Desktop\\Sunmi\\Dayoff_Project\\Backend\\Dayoff_back\\Dayoff.DAL\\Dayoff.DAL.csproj",
+        "projectPath": "C:\\Users\\sunmi\\Desktop\\Sunmi\\Dayoff_Project\\Backend\\Shiftmaker\\Dayoff.DAL\\Dayoff.DAL.csproj",
         "packagesPath": "C:\\Users\\sunmi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sunmi\\Desktop\\Sunmi\\Dayoff_Project\\Backend\\Dayoff_back\\Dayoff.DAL\\obj\\",
+        "outputPath": "C:\\Users\\sunmi\\Desktop\\Sunmi\\Dayoff_Project\\Backend\\Shiftmaker\\Dayoff.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

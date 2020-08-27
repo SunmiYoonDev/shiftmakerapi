@@ -5638,11 +5638,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sunmi\\Desktop\\Sunmi\\Dayoff_Project\\Backend\\Dayoff_back\\Dayoff.DAL\\Dayoff.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\sunmi\\Desktop\\Sunmi\\Dayoff_Project\\Backend\\Shiftmaker\\Dayoff.DAL\\Dayoff.DAL.csproj",
       "projectName": "Dayoff.DAL",
-      "projectPath": "C:\\Users\\sunmi\\Desktop\\Sunmi\\Dayoff_Project\\Backend\\Dayoff_back\\Dayoff.DAL\\Dayoff.DAL.csproj",
+      "projectPath": "C:\\Users\\sunmi\\Desktop\\Sunmi\\Dayoff_Project\\Backend\\Shiftmaker\\Dayoff.DAL\\Dayoff.DAL.csproj",
       "packagesPath": "C:\\Users\\sunmi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sunmi\\Desktop\\Sunmi\\Dayoff_Project\\Backend\\Dayoff_back\\Dayoff.DAL\\obj\\",
+      "outputPath": "C:\\Users\\sunmi\\Desktop\\Sunmi\\Dayoff_Project\\Backend\\Shiftmaker\\Dayoff.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

@@ -142,7 +142,7 @@ namespace Dayoff.BLL.Repositories
                             " WHERE email = @email";
             Execute(SqlQuery, new { forgotUser.validKey, Today, email });
 
-            _emailFactory.SendEmail(forgotUser.id, forgotUser.validKey, email, "forgotpassword");
+            //_emailFactory.SendEmail(forgotUser.id, forgotUser.validKey, email, "forgotpassword");
 
 
             //SqlQuery = @"INSERT INTO email (mail_to, new_message, date_added, date_sent, type_id)

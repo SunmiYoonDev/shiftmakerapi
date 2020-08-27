@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/XbFyORtsQ7mfkwKFu4XjV44/MuF0hxu4e5dcES6OaX7FQKLk/QqY8Xshom+u/H1P4k80RbjaPYrgYBg1A2L8Q==",
+  "dgSpecHash": "xyrQ8v3FIHkcMkEpXmnv2U8DuHw9uIVj403GKvLNDQCOAIDSlI3OmBBF5CCrn944alJLiEoaCbIghbnILASm+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sunmi\\Desktop\\Sunmi\\Dayoff_Project\\Backend\\Dayoff_back\\Dayoff.WebAPI\\Dayoff.WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\sunmi\\Desktop\\Sunmi\\Dayoff_Project\\Backend\\Shiftmaker\\Dayoff.WebAPI\\Dayoff.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sunmi\\.nuget\\packages\\automapper\\7.0.1\\automapper.7.0.1.nupkg.sha512",
     "C:\\Users\\sunmi\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\4.0.1\\automapper.extensions.microsoft.dependencyinjection.4.0.1.nupkg.sha512",
