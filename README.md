@@ -1,4 +1,4 @@
-# scheduler_back
+# Scheduler_back
 This version of shift maker API for user who is a business owner or a schedule manager to make a schedule of employees. 
 
 ## Background
